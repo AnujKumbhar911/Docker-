@@ -64,3 +64,10 @@ docker build -t my-image:tag .
 
 
 
+===========================================
+common error:
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock:
+to solve following steps:
+1) ls -ld /var/run/docker.sock
+2) chmod 777 /var/run/docker.sock
+
