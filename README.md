@@ -71,3 +71,19 @@ to solve following steps:
 1) ls -ld /var/run/docker.sock
 2) chmod 777 /var/run/docker.sock
 
+
+=========================================
+credential for docker hub:
+secret text
+type password
+
+
+=======================================
+ecr credentials in jenkins:'
+create a user in iam
+#create access keys and select third party service
+
+
+
+
+
