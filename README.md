@@ -83,7 +83,18 @@ ecr credentials in jenkins:'
 create a user in iam
 #create access keys and select third party service
 
+===========================================
 
+##important
+to login to ecr repository and perform psh and tag cmds from a server you need to have access to aws account
+    go to aws account:
+    create a user and create a access key with cli 
+    go to server and type aws configure
+    access key:
+    secret access key:
+    default region name:
+    default output:
 
+    
 
 
